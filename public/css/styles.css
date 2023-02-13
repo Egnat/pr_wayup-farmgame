@@ -156,6 +156,11 @@ text-align:center;
 font-size:15px
 }
 
+
+/* Для отцентроаки */
+@media screen and (max-width: 1300px) {}
+
+/* Large: 992px - 1199px */
 @media screen and (max-width: 1199px) {
 .container {
 max-width:960px
@@ -180,6 +185,7 @@ margin:70px 0 0 122px
 }
 }
 
+/* Medium: 768px - 991px */
 @media screen and (max-width: 991px) {
 .container {
 max-width:720px
@@ -230,6 +236,7 @@ text-align:center
 }
 }
 
+/* Small: 576px - 767px */
 @media (max-width: 767px) {
 .container {
 max-width:540px
@@ -260,6 +267,7 @@ align-items:center
 }
 }
 
+/* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
 .img-cow {
 width:100%
