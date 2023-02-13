@@ -407,10 +407,16 @@ text-align:center
 }
 
 @media screen and (max-width: 320px) {
+.description__items {
+    gap: 61px;
+}
 .block-text__item {
     width: 264px;
 }
 .description-item__text {
     width: 278px;
+}
+.block-victory__text {
+    gap: 38px;
 }
 }
